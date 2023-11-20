@@ -5,6 +5,7 @@ from datetime import datetime
 import os
 from CustomAuthentication.settings import BASE_DIR
 
+
 class CustomAuthenticationMiddleware(MiddlewareMixin):
     def __init__(self, get_response):
         self.get_response = get_response
