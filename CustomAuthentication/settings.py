@@ -52,6 +52,7 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
     'users.middlewares.CustomAuthenticationMiddleware',
+    'users.middlewares.CustomLoggingMIddleware',
 ]
 
 ROOT_URLCONF = 'CustomAuthentication.urls'
